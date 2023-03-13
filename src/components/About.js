@@ -1,0 +1,20 @@
+import React from 'react'
+import { useNavigate } from 'react-router-dom';
+
+const About = () => {
+  const navigate = useNavigate();
+  return (
+    <>
+          <div className="container">
+            <h1 className="text-center"> &lt; About / &gt; </h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam laudantium iusto minus adipisci dignissimos error deleniti! Quaerat sint asperiores quae est facere tenetur ut aspernatur, cupiditate, sed, quasi totam quisquam saepe dicta iusto explicabo consequatur reiciendis. Incidunt nisi pariatur beatae quos voluptas suscipit libero optio at doloribus! Odio rerum, ad pariatur quia exercitationem perferendis, fugiat veniam id facere voluptate quisquam iste similique dolore quo error ut dolor? Accusamus dolores ex perferendis sed quo ullam hic eos, ratione qui incidunt officiis sapiente, illum vero placeat eius illo ut dolore rerum ducimus tempore. Repudiandae, dicta iure consequuntur recusandae nisi corrupti temporibus aperiam. Ipsam, fuga amet. Asperiores eius dicta, nisi magnam voluptas nobis, a rem fuga veniam at ducimus vero perspiciatis soluta, nemo molestias? Consequuntur sunt qui, vitae adipisci ipsam autem error, excepturi, ab enim quod odit architecto eligendi? Blanditiis hic sed tempore, ut corrupti ab. Libero exercitationem alias harum, quo rem minus repellat, reprehenderit velit debitis omnis soluta ullam sapiente! Nemo eos delectus laboriosam ducimus autem debitis, id eaque ratione similique provident facilis voluptatem voluptatum reiciendis sequi, cupiditate quam temporibus laborum exercitationem animi expedita quos eius! Error suscipit earum, dolore commodi nostrum iure hic sequi neque, quasi saepe cupiditate dolorem. Ut ducimus facilis voluptatibus. Nam odit fugit ea deserunt nobis neque, quia maiores ipsam dignissimos perferendis aliquid asperiores cupiditate placeat a blanditiis aspernatur, magnam, atque cum tenetur dolor est. Sit laudantium saepe accusamus, soluta hic illum eius recusandae voluptate, vero quae ex aliquid aut, labore ipsum! Impedit error hic ipsam expedita officia suscipit, porro cumque aspernatur repudiandae vitae doloribus quia dicta reprehenderit repellat quidem modi assumenda. Dolorum alias non repellendus quaerat. Placeat facilis culpa error aspernatur commodi eos iure provident, quia quisquam sapiente magni alias esse perspiciatis velit quasi, quibusdam ea quos libero quo vel earum dignissimos excepturi at. Consectetur doloribus illo rerum tempore, dolor voluptas pariatur distinctio est possimus facilis et fugit ratione ad perferendis vel iste qui, reiciendis nemo deserunt id commodi doloremque harum exercitationem! A placeat cumque, corrupti laudantium velit nemo provident culpa non sapiente expedita maiores officia, beatae est, dicta repudiandae. Beatae porro doloremque enim excepturi corporis explicabo magnam facere consequatur quos ducimus neque vero numquam ut dolorem, aliquid dicta eius tenetur vel iusto nostrum temporibus reiciendis sit non. Illo sunt iure ut vero dolorem accusantium pariatur, voluptas reprehenderit, doloribus quod dignissimos fugiat? Optio in, repellat illum facere recusandae nam rem perspiciatis minima modi dolores rerum quia eum eaque, aut voluptatum repudiandae aliquam voluptatibus ullam fugiat eligendi, quidem consequatur vero. Inventore provident, numquam quis nesciunt alias deleniti placeat, harum minus facilis unde blanditiis voluptatibus ad atque voluptatum minima ducimus sunt aperiam soluta eveniet libero quae dolore voluptatem vero similique? Repellat nulla cum, perspiciatis consequatur placeat saepe! Ea doloribus nam obcaecati. Distinctio eius repellendus voluptates? 
+            </p>
+            <div className="text-center">
+              <button className="btn btn-secondary" onClick={()=>navigate('/')}>Go to Home</button>
+            </div>
+          </div>
+    </>
+  )
+}
+
+export default About
